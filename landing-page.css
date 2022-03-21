@@ -1,11 +1,66 @@
-.nav {
+/* CSS for header; navbar */
+
+.navbar {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 }
 
 .logo {
+	font-weight: bold;
 }
 
 .nav-links {
+	display: flex;
+	gap: 10px;
+}
+
+ul,
+li {
+	display: flex;
+	gap: 10px;
+	list-style: none;
+}
+
+/* CSS for header; main */
+
+.main {
+	display: flex;
+	align-items: center;
+}
+
+.main1 {
+	display: flex;
+	flex-direction: column;
+}
+
+.main2 {
+	display: flex;
+	justify-content: center;
+}
+
+/* CSS for section */
+
+.overview {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+/* CSS for description */
+
+.description {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+/* CSS for footer */
+
+.action {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 50px;
 }
