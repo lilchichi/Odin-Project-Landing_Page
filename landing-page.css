@@ -5,15 +5,20 @@
 	justify-content: space-between;
 	align-items: center;
 	margin: 0px 100px;
+	background-color: #1f2937;
 }
 
 .logo {
 	font-weight: bold;
+	color: #f9faf8;
+	font-size: 24px;
 }
 
 .nav-links {
 	display: flex;
 	gap: 10px;
+	color: #e5e7eb;
+	font-size: 18px;
 }
 
 ul,
@@ -29,6 +34,18 @@ li {
 	display: flex;
 	align-items: center;
 	margin: 50px 100px;
+	background-color: #1f2937;
+}
+
+.main h2 {
+	color: #f9faf8;
+	font-size: 48px;
+	font-weight: bolder;
+}
+
+h3 {
+	color: #e5e7eb;
+	font-size: 18px;
 }
 
 .main2 {
@@ -40,6 +57,7 @@ li {
 .sign-up {
 	height: 30px;
 	width: 80px;
+	background-color: #3882f6;
 }
 
 /* CSS for section */
@@ -49,6 +67,13 @@ li {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	margin: 50px 100px;
+}
+
+.overview h2 {
+	font-size: 36px;
+	font-weight: bolder;
+	color: #1f2937;
 }
 
 img {
@@ -56,10 +81,11 @@ img {
 	width: 200px;
 }
 
-.text {
+.images {
+	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap: 100px;
+	flex-direction: row;
 }
 
 /* CSS for description */
@@ -69,10 +95,15 @@ img {
 	align-items: center;
 	flex-direction: column;
 	margin: 0px 100px;
+	background-color: #e5e7eb;
 }
 
-.h3 {
+.description h3 {
 	margin-left: 100px;
+	font-size: 36px;
+	font-weight: lighter;
+	font-style: italic;
+	color: #1f2937;
 }
 
 /* CSS for footer */
@@ -82,4 +113,5 @@ img {
 	align-items: center;
 	justify-content: center;
 	gap: 100px;
+	background-color: #3882f6;
 }
