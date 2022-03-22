@@ -28,13 +28,7 @@ li {
 .main {
 	display: flex;
 	align-items: center;
-	margin: 0px 100px;
-}
-
-.main1 {
-	display: flex;
-	flex-direction: column;
-	margin-right: 100px;
+	margin: 50px 100px;
 }
 
 .main2 {
@@ -58,13 +52,14 @@ li {
 }
 
 img {
-	height: 100px;
-	width: 150;
+	height: 150px;
+	width: 200px;
 }
 
-.image .text {
-	display: flex;
-	flex-direction: column;
+.text {
+	align-items: center;
+	justify-content: center;
+	gap: 100px;
 }
 
 /* CSS for description */
